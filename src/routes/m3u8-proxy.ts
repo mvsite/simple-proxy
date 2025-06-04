@@ -1,6 +1,6 @@
 import { setResponseHeaders } from 'h3';
 
-function parseURL(req_url: string, baseUrl?: string) {
+export function parseURL(req_url: string, baseUrl?: string) {
   if (baseUrl) {
     return new URL(req_url, baseUrl).href;
   }
