@@ -4,6 +4,9 @@ import {
   ProxyOptions,
   getProxyRequestHeaders,
   RequestHeaders,
+  getRequestWebStream,
+  readRawBody,
+  sendProxy,
 } from 'h3';
 
 const PayloadMethods = new Set(['PATCH', 'POST', 'PUT', 'DELETE']);

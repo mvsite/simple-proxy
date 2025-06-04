@@ -1,4 +1,4 @@
-import { H3Event } from 'h3';
+import { H3Event, readRawBody } from 'h3';
 
 export function hasBody(event: H3Event) {
   const method = event.method.toUpperCase();
