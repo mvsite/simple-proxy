@@ -13,7 +13,7 @@ Read the docs at https://docs.pstream.org/proxy/introduction
  - parse and bypass m3u8 stream restrictions - make sure the IP is not blocked by the CDN, may need to be on a VPS.
 
 > [!WARNING]
-> Turnstile integration only works properly with cloudflare workers as platform
+> Turnstile integration only works properly with **Cloudflare Workers** as the platform.
 
 ### supported platforms:
  - cloudflare workers
