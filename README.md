@@ -1,3 +1,7 @@
+# JUNK CODE DO NOT USE
+
+Hi, I was testing OpenAI's Codex and needed some random code base to have it work on. I picked the pstream proxy as the Guinea pig. I gave up on Codex completely and left this code in unknown status but don't want to delete it in case I change my mind and go back to do more testing with Codex.
+
 # simple-proxy
 
 Simple reverse proxy to bypass CORS, used by [movie-web](https://movie-web.app)/[P-Stream](https://pstream.org).
